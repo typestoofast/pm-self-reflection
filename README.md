@@ -1,15 +1,8 @@
 # PM Self-Reflection
 
-A Claude Code plugin that helps Shopify PMs write their semi-annual self-reflection. It searches your Google Drive for work artifacts, pulls your team roster from Vault, finds shipped wins from Slack, maps evidence to the review form with zero reuse, and writes the reflection in your voice.
+Are you having trouble doing self-reflections in the ~3 days we have? Point Claude Code at this repo. It will ask you for some basic info like name/level/team/channels you want it to pay attention to, and go dig through Slack/Vault/Google Drive and output the answers to self-reflection in markdown.
 
-## Prerequisites
-
-1. **Claude Code** installed and working
-2. **Google Workspace MCP** configured with Drive permissions (built into Claude Code)
-3. **Vault CLI**: `devx agent-tools vault auth setup`
-4. **Slack CLI**: `devx agent-tools slack auth setup`
-
-All three tools are required. The skill will walk you through setup if any are missing.
+This is a good V1 if you're like "what did I do?" or "I did sooo much I forgot what I did." It also pulls your team's impact, which is one major way we ship (leading through others). If you see bugs, DM me.
 
 ## Install
 
@@ -22,6 +15,15 @@ Then in Claude Code:
 ```
 /reload-plugins
 ```
+
+## Prerequisites
+
+1. **Claude Code** installed and working
+2. **Google Workspace MCP** configured with Drive permissions (built into Claude Code)
+3. **Vault CLI**: `devx agent-tools vault auth setup`
+4. **Slack CLI**: `devx agent-tools slack auth setup`
+
+Do you need to set up MCPs? That's ideal, but if not the skill helps you set everything up.
 
 ## Usage
 
@@ -56,6 +58,18 @@ Or any variation: "start my perf review", "gather evidence for my review", "what
 | 3. Allocate | Scores each item and allocates to Highlights > Level Requirements > Self-Ratings with zero reuse. Shows you the allocation table. |
 | 4. Write | Drafts the full self-reflection in your voice as pasteable markdown. |
 | 5. Review | Walks through each section with you. Iterates until you approve. |
+
+## Tips
+
+Point it to relevant Slack channels like your fecta channel, #pcb-wins, #pclt-pairing so the AI doesn't overrotate on the random incident you helped with (unless you're Dikshant, in which case it's all channels that are #inc lol).
+
+## FAQ
+
+**Will it work for managers?** Maybe, not really a problem I have.
+
+**Will it sound like AI?** No. Part of the prompt is it learns how you write based on your Google Docs.
+
+**Why did you build this?** Solving my own problems.
 
 ## Key design decisions
 
