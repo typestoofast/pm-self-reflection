@@ -9,7 +9,7 @@ Three categories per level:
 
 ---
 
-## C4 (Associate PM)
+## C4 (Apprentice Product Manager)
 
 ### Craft Skills
 - **Out-care everyone else** with the problem you are set to solve
@@ -28,7 +28,7 @@ Look for: customer research notes, delivery consistency, product quality improve
 
 ---
 
-## C5 (PM)
+## C5 (Product Manager)
 
 ### Cumulative: All C4 requirements, plus nothing new
 
@@ -39,7 +39,7 @@ Same as C4, but with evidence of increased scope, ambiguity, and self-direction.
 
 ---
 
-## C6 (PM)
+## C6 (Senior PM)
 
 ### Cumulative: All C4/C5, plus:
 
@@ -64,7 +64,7 @@ Look for: deep domain knowledge, clear problem definitions in docs, communicatio
 
 ---
 
-## C7 (Senior PM)
+## C7 (Staff PM)
 
 ### Cumulative: All C6, plus:
 
@@ -87,7 +87,7 @@ Look for: process improvements that helped the team build better, independent pr
 
 ---
 
-## C8 (Staff PM)
+## C8 (Senior Staff PM)
 
 ### Cumulative: All C7, plus:
 
@@ -108,7 +108,7 @@ Look for: product vision documents, multi-year roadmaps, talent attraction effor
 
 ---
 
-## C9 (Senior Staff PM)
+## C9 (Principal PM)
 
 ### Cumulative: All C8, plus:
 
@@ -129,7 +129,7 @@ Look for: company-wide rallying artifacts, financial impact quantification, big 
 
 ---
 
-## C10 (Principal PM)
+## C10 (Distinguished PM)
 
 ### Cumulative: All C9, plus:
 

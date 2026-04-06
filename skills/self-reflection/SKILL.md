@@ -38,9 +38,10 @@ Gather evidence from a Shopify PM's work artifacts, map it to the review form wi
 Ask these questions first:
 
 1. **Name?**
-2. **PM level?** (C4-C10)
-3. **Review period?** (e.g., "H2 2025")
-4. **Full review or specific sections?**
+2. **PM level?** C4 (Apprentice PM), C5 (Product Manager), C6 (Senior PM), C7 (Staff PM), C8 (Senior Staff PM), C9 (Principal PM), C10 (Distinguished PM)
+3. **Review period?** Default to the last 6 months. Offer the current half (H1 or H2) and the previous half as options, then let the PM type a custom range if neither fits. Example: if today is April 2026, offer "H1 2026 (Jan-June 2026)" and "H2 2025 (July-Dec 2025)" as defaults, with an option to specify custom dates.
+
+Always produce a full review (all sections: highlights, self-ratings, level requirements, forward-looking). If the PM explicitly asks for only specific sections, respect that, but never ask.
 
 Also collect:
 5. **Vault team URL?** (e.g. `https://vault.shopify.io/teams/13801`)
