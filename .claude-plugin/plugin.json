@@ -1,0 +1,13 @@
+{
+  "name": "pm-self-reflection",
+  "version": "1.0.0",
+  "description": "Automates evidence gathering, allocation, and writing for Shopify PM semi-annual self-reflections",
+  "author": {
+    "name": "Adit Daga",
+    "email": "adit.daga@shopify.com"
+  },
+  "repository": "https://github.com/Shopify/pm-self-reflection",
+  "homepage": "https://github.com/Shopify/pm-self-reflection",
+  "license": "MIT",
+  "keywords": ["shopify", "pm", "self-reflection", "perf-review", "performance"]
+}
